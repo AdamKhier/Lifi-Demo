@@ -1,4 +1,4 @@
-# Define the mapping dictionaries
+# Transmitor
 text_to_binary = {
     'a': '01100001', 'A': '01000001', 'b': '01100010', 'B': '01000010',
     'c': '01100011', 'C': '01000011', 'd': '01100100', 'D': '01000100',
@@ -20,11 +20,13 @@ binary_to_text = {v: k for k, v in text_to_binary.items()}
 
 # Function to translate text to binary
 def text_to_binary_translator(text):
-    return ' '.join(text_to_binary[char] for char in text)
+    return ''.join(text_to_binary[char] for char in text)
 
 # Function to translate binary to text
 def binary_to_text_translator(binary):
-    return ''.join(binary_to_text[b] for b in binary.split())
+    # Split binary string into chunks of 8 bits
+    binary_chunks = [binary[i:i+8] for i in range(0, len(binary), 8)]
+    return ''.join(binary_to_text[b] for b in binary_chunks)
 
 # Example usage
 input_text = input("What text would you like to translate: ")
