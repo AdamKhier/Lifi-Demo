@@ -33,11 +33,14 @@
             height: 20px;
             display: inline-block;
             margin-right: 5px;
-            background-color: gray;
+            background-color: gray; /* Default LED color */
             border: 1px solid black;
         }
         .led-on {
-            background-color: yellow;
+            background-color: yellow; /* LED ON color */
+        }
+        .led-green {
+            background-color: green; /* LED START and END color */
         }
     </style>
 </head>
@@ -48,7 +51,7 @@
         <input type="text" id="input-text" name="input-text">
         <button type="submit">Translate</button>
     </form>
-    <div id="led-container"></div>
+    <div id="led" class="led led-green"></div>
 
     <script>
         // Mapping dictionary
@@ -80,28 +83,16 @@
             return binaryOutput.trim(); // Remove any unnecessary leading or trailing whitespace
         }
 
-        // Function to translate binary to LED states
-        function binaryToLedTranslator(binary) {
-            const ledStates = [];
-            for (let i = 0; i < binary.length; i++) {
-                const bit = binary[i];
-                const state = (bit === '1') ? 'led-on' : 'led';
-                ledStates.push(state);
-            }
-            return ledStates;
+        // Function to translate binary to LED state
+        function binaryToLedState(binary) {
+            return binary === '1' ? 'led-on' : 'led';
         }
 
-        // Function to display LEDs based on LED states
-        function displayLEDs(ledStates) {
-            const ledContainer = document.getElementById('led-container');
-            ledContainer.innerHTML = ''; // Clear previous LEDs
-
-            ledStates.forEach(state => {
-                const led = document.createElement('div');
-                led.classList.add('led');
-                led.classList.add(state); // Add the appropriate class for styling
-                ledContainer.appendChild(led);
-            });
+        // Function to update LED state based on binary input
+        function updateLED(binary) {
+            const led = document.getElementById('led');
+            const state = binaryToLedState(binary);
+            led.className = 'led ' + state; // Update the class to change the LED color
         }
 
         // Event listener for form submission
@@ -111,9 +102,18 @@
 
             const inputText = document.getElementById('input-text').value;
             const binaryOutput = textToBinaryTranslator(inputText);
-            const ledStates = binaryToLedTranslator(binaryOutput);
 
-            displayLEDs(ledStates);
+            // Display the LED state for each binary digit with a delay
+            let index = 0;
+            const intervalId = setInterval(() => {
+                if (index < binaryOutput.length) {
+                    updateLED(binaryOutput[index]);
+                    index++;
+                } else {
+                    clearInterval(intervalId); // Stop the interval once all LED states are displayed
+                    document.getElementById('led').classList.add('led-green'); // Ensure the LED ends in green
+                }
+            }, 100); // 0.1 seconds delay per LED state
         });
     </script>
 </body>
