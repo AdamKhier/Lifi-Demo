@@ -1,10 +1,5 @@
 # LiFi Technology Demo
 
-## Contents
-- ![Introduction]([https://github.com/AdamKhier/Binary-Translator/edit/main/README.md#introduction])
-- ![Project Overview]([https://github.com/AdamKhier/Binary-Translator/edit/main/README.md#project-overview])
-- ![Setup](https://github.com/AdamKhier/Binary-Translator/edit/main/README.md#setup])
-
 ## Introduction
 Welcome to my LiFi Technology Demo project! This project demonstrates data transfer using LiFi (Light Fidelity). LiFi is a wireless communication technology that uses light to transmit data. This demo will showcase how data can be sent and received using an LED and a light sensor.
 
