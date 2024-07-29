@@ -9,13 +9,17 @@ This demonstration will work by placing the Raspberry Pi on a breadboard with a 
 ## Setup
 ### Hardware Requirements
 - Raspberry Pi 5
-- LED
-- Light sensor
+- IR LED
+- IR sensor
 - Bread board
 ### Software Requirements
 - Python
 - HTML
 - CSS
 - Java Script
+
 ## Project Current State
 So far, the project is very successful with the addition of visuallising how it works along with live translations in the html files. The lined one will show live translation (while being slow for people to see), whereas the singularly blocked on will provie the end resault of fast data transfer. However this project has not reached any hardware further than getting the code to run on a Raspberry Pi. I have yet to include the sensors and LED in the code.
+
+## Future Plans
+I would map hardware to pins on the raspi and incorprate them into the code.
