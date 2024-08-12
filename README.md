@@ -1,8 +1,14 @@
 # LiFi Technology Demo
 
 ## Content
-1) [Introduction](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#introduction)
-2) [Project Overview](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#project)
+### 1) [Introduction](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#introduction)
+### 2) [Project Overview](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#project-overview)
+### 3) [Setup](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#setup)
+#### 4) [Hardware Requirements](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#hardware-requirements)
+#### 5) [Software Requirements](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#software-requirements)
+### 6) [Project *Previous* State](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#project-previous-state)
+### 7) [Project *Current* State](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#project-current-state)
+### 8) [*Future* Plans](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#future-plans)
 
 ## Introduction
 Welcome to my LiFi Technology Demo project! This project demonstrates data transfer using LiFi (Light Fidelity), a wireless communication technology that uses light to transmit data. This demo showcases how data can be sent and received using an LED and a light sensor.
