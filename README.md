@@ -7,10 +7,8 @@
 ### 3) [Setup](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#setup)
 #### 4) [Hardware Requirements](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#hardware-requirements)
 #### 5) [Software Requirements](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#software-requirements)
-### 6) [Project *Previous* State](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#project-previous-state)
-### 7) [Project *Current* State](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#project-current-state)
-### 8) [*Future* Plans](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#future-plans)
-
+### 6) [How To Use](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#how-to-use)
+### 7) [How Was This Acomplished](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#how-was-this-acomplished)
 
 ## Introduction
 Welcome to my LiFi Technology Demo project! This project demonstrates data transfer using LiFi (Light Fidelity), a wireless communication technology that uses light to transmit data. This demo showcases how data can be sent and received using an LED and a light sensor.
@@ -25,11 +23,10 @@ This demonstration works by placing two Arduinos on a breadboard, each with a li
 
 ### Hardware Requirements
 - **Arduino Uno**
-- **Arduino Nano**
-- **IR LEDs (x2)**
-- **IR sensors (x2)**
-- **Breadboards (x2)**
+- **IR sensor**
+- **Breadboard**
 - **Small display for Arduino**
+- TV Remote
 
 
 ### Software Requirements
@@ -40,14 +37,13 @@ This demonstration works by placing two Arduinos on a breadboard, each with a li
 - **C++ (Arduino)**
 
 
-## Project *Previous* State
-The project has been quite successful so far, with the addition of visualizing how it works and providing live translations in the HTML files. The lined version shows live translation (though slower for visibility), while the singularly blocked version provides the end result of fast data transfer. However, the project hasn't progressed beyond getting the code to run on a Raspberry Pi. I have yet to include the sensors and LEDs in the code.
+## How To Use
+There are many ways this project is displayed which gives some flexability in presenting it. These ways include Python (With Terminal no UI), HTML (With UI) and Arduino (With Hardware).
+### 1) Python
+text to explain
+### 2) HTML
+text to explain
+### 3) Arduino
+text to explain
 
-
-## Project *Current* State
-I have mapped the hardware to pins on the Arduino and started coding.
-
-
-## *Future* Plans
-I plan to fix the code and add an acknowledgment feature to ensure the text is transmitted correctly.
-
+## How Was This Acomplished
