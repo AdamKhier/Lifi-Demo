@@ -8,7 +8,8 @@
 #### 4) [Hardware Requirements](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#hardware-requirements)
 #### 5) [Software Requirements](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#software-requirements)
 ### 6) [How To Use](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#how-to-use)
-### 7) [Summary](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#summary)
+### 7) [Wiring](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#wiring)
+### 8) [Summary](https://github.com/AdamKhier/Lifi-Demo/tree/main?tab=readme-ov-file#summary)
 
 ## Introduction
 Welcome to my LiFi Technology Demo project! This project demonstrates data transfer using LiFi (Light Fidelity), a wireless communication technology that uses light to transmit data. This demo showcases how data can be sent and received using an LED and a light sensor.
@@ -42,8 +43,9 @@ There are many ways this project is displayed which gives some flexability in pr
 To use any of these open there folder and read there own readme files.
 
 ## Wiring
-[Images]([https://github.com/AdamKhier/Lifi-Demo/tree/main/Wiring_Images])
-[wokwi (only for wiring not working)]([https://wokwi.com/projects/406908481978880001])
+[Images](https://github.com/AdamKhier/Lifi-Demo/tree/main/Wiring_Images)
+
+[wokwi (only for wiring not working)](https://wokwi.com/projects/406908481978880001)
 
 ## Summary
 This project's goal was to transfer data through light and I would say that we have definately accomplished this By:
