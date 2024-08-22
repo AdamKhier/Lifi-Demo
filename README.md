@@ -41,6 +41,10 @@ This demonstration works by placing two Arduinos on a breadboard, each with a li
 There are many ways this project is displayed which gives some flexability in presenting it. These ways include Python (With Terminal no UI), HTML (With UI) and Arduino (With Hardware).
 To use any of these open there folder and read there own readme files.
 
+## Wiring
+[Images]([https://github.com/AdamKhier/Lifi-Demo/tree/main/Wiring_Images])
+[wokwi (only for wiring not working)]([https://wokwi.com/projects/406908481978880001])
+
 ## Summary
 This project's goal was to transfer data through light and I would say that we have definately accomplished this By:
 ### 1) Python
